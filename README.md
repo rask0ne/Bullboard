@@ -10,6 +10,6 @@ Any modern browser.
 
 ### Analogs
 
-* [Барахолка Onliner.by](https://baraholka.onliner.by/)
+* [Baraholka Onliner.by](https://baraholka.onliner.by/)
 * [ay.by](http://ay.by/)
 * [olx.by](https://www.olx.by/)
