@@ -22,7 +22,6 @@ The designed software is a web app which shall provide an convenient platform fo
 ### 2.1 Software Interfaces
 
 #### Used technologies
-<<<<<<< HEAD
 - HTML, CSS, Typescipt and Angular (front-end)
 - C#, ASP.NET MVC and Entity Framework (backend)
 - SQL to store information about users and their ads
@@ -30,7 +29,6 @@ The designed software is a web app which shall provide an convenient platform fo
 - HTML, CSS, Javascript, Typescipt and Angular (front-end)
 - C#, ASP.NET (backend)
 - SQL Server to store information about users and their ads
->>>>>>> Functional requirements were updated
 
 ### 2.2 User Interfaces
 
@@ -50,33 +48,6 @@ To use this application, you need a device with Enternet access and web browser 
 - Microsoft Edge
 
 ### 3.1 Functional Requirements
-<<<<<<< HEAD
-3.1.1 Navigation bar in site header with:
-
-- Profile (form with a user editable information)
-- Creating new bulletins (form with information to create new ad)
-- Search (list of search results)
-
-3.1.2 Logo at the site header.
-
-3.1.3 Footer with:
-- About (text)
-- Contacts (text)
-
-3.1.4 Internalization of toolset and content in Russian and English. Implemented by icons on bottom of the page
-
-3.1.5 Implemention of database storing information about users and their bulletins.
-
-3.1.6 Share links and socials at the projects list view.
-
-### 3.2 Non-Functional Requirements
-1) Secure HTTPS channel
-3) Responsive and atmospheric design
-#### 3.2.1 SOFTWARE QUALITY ATTRIBUTES
-- Performance - this platform may not be highweight because there will not be a lot of information, mostly bulletin and user info. That is why loading of the app will only depend on users internet.
-
-- Reliability - the main idea of this application is to be active 24 hours per day because necessity in different goods may wake up in a person at any time. So everyone may enter the app whenever he wants.
-=======
 3.1.1 Functional and user-friendly interface for people to create their own bulletins and find things they need.
 
 3.1.2 Internalization of toolset and content in Russian and English. Implemented by icons on bottom of the page
@@ -91,11 +62,10 @@ To use this application, you need a device with Enternet access and web browser 
 
 3.1.7 Editable user profile in profile page.
 
-
 ### 3.2 Non-Functional Requirements
 1) Secure HTTPS channel
+
 #### 3.2.1 SOFTWARE QUALITY ATTRIBUTES
 - Performance - this platform may not be highweight because there will not be a lot of information, mostly bulletin and user info. That is why loading of the app will only depend on users internet.
 
 - Reliability - the main idea of this application is to be active 24 hours per day because necessity in different goods may wake up in a person at any time. So everyone may enter the app whenever he wants.
->>>>>>> Functional requirements were updated
