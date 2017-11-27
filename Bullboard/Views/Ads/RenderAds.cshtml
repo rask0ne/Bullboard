@@ -1,0 +1,39 @@
+﻿@model List<Bullboard.Models.Ad>
+<div class="search-filed__wrap" id="ads-search">
+    <div class="search-options">
+        <div class="search-element">
+            <select class="selectpicker form-control" title="Type" onchange="search();" id="type" name="type">
+                <option>Any</option>
+                <option>Sale</option>
+                <option>Give Away</option>
+                <option>Exchange</option>
+                <option>Purchase</option>
+            </select>
+        </div>
+        <div class="search-element">
+            <select class="selectpicker form-control" title="All categories" onchange="search();getSubCategories();" id="category"
+                    data-size="6" name="category">
+                @foreach (var category in ViewBag.CategoryList)
+                {
+                    <option>@category.Name</option>
+                }
+            </select>
+        </div>
+        <div class="search-element">
+            <select class="selectpicker form-control" title="All subategories" onchange="search();"
+                    id="subcategory" data-size="6" name="sub-category">
+            </select>
+        </div>
+        <div id="price-search">
+            <div class="search-element">
+                <input type="text" id="min-price" onchange="searchAction();" class="form-control" placeholder="Price from" name="minPrice" />
+            </div>
+            <div class="search-element">
+                <input type="text" id="max-price" onchange="searchAction();" class="form-control" placeholder="Price to" name="maxPrice" />
+            </div>
+        </div>
+    </div>
+</div>
+<div id="body-content">
+    @Html.Partial("UpdateAds")
+</div>

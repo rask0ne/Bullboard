@@ -1,0 +1,238 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#search-field {
+    position: absolute;
+    margin-left: 15%;     
+    max-width: 25%;
+    margin-top: 9px;
+}
+
+.search-element input,select,textarea {
+    max-width: 100%;
+}
+
+.search-element {
+    width: 32.7%;
+    display:inline-block;
+}
+
+.search-options {
+    margin: 19px -1.7% 0 1.7%;
+}
+
+.search-filed__wrap {
+    margin: 0 3% 0 -0.5%;
+}
+
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .search-filed__wrap {
+        margin: 0 3.5% 0 -0.5%;
+    }
+    .search-element {
+        width: 24%;
+        display:inline-block;
+    }
+
+    .search-options {
+        margin: 0 -4.5% 0 2%;
+    }
+
+    #search-field {
+        margin-left: 17%;    
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+    #search-field {
+        margin-left: 19%;    
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .search-filed__wrap {
+        margin: 0 5% 0 -0.5%;
+    }
+
+    .search-element {
+        width: 24%;
+        display:inline-block;
+    }
+
+    .search-options {
+        margin: 0 -5% 0 2.8%;
+    }
+
+    #search-field {
+        margin-left: 21%;    
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    #search-field {
+        margin-left: 23%;    
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    #search-field {
+        margin-left: 26%;    
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .search-filed__wrap {
+        margin: 0 3% 0 -0.5%;
+    }
+
+    .search-element {
+        width: 24%;
+        display:inline-block;
+    }
+
+    .search-options {
+        margin: 0 -5% 0 2.8%;
+    }
+
+    #search-field {
+        margin-left: 26%;    
+    }
+    
+}
+
+@media only screen and (max-width : 767px) {
+    #search-field {  
+        max-width: 86%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+@media only screen and (max-width : 630px) {
+    .search-element {
+        display: block;
+        max-width: 100%;
+    }
+
+    .search-options {
+        margin: 0 -5% 0 2.8%;
+        width: 100%
+    }
+
+    #search-field {  
+        max-width: 84%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+@media only screen and (max-width : 550px) {
+    #search-field {  
+        max-width: 82%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .search-filed__wrap {
+        margin: 0 5.5% 0 -1.5%;
+    }
+
+    #search-field {  
+        max-width: 81%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    #search-field {  
+        max-width: 80%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+@media only screen and (max-width : 415px) {
+    #search-field {  
+        max-width: 79%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+@media only screen and (max-width : 380px) {
+    #search-field {  
+        max-width: 78%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+@media only screen and (max-width : 350px) {
+    #search-field {  
+        max-width: 76%;
+        margin-top: 9px;  
+        margin-left: 3.5%;   
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .search-filed__wrap {
+        margin: 0 6.5% 0 -3%;
+    }
+
+    #search-field {  
+        max-width: 74%;
+        margin-top: 9px;  
+        margin-left: 3%;   
+    }
+}
+
+.btn-hidden {
+    display: none !important;
+}
+
+.register-help {
+    font-size: 11px;
+    margin-bottom: -5px;
+}
+
+#ads-search {
+    display: none;
+}
+
+#price-search {
+    display: none;
+}
